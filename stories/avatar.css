@@ -1,0 +1,61 @@
+.avatar{
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-content: center ;
+    background-color: azure;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5em;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-image{
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.avatar--shape-square{
+    border-radius: 0.75rem;
+}
+
+.avatar--shape-circle{
+    border-radius: 5em;
+}
+
+.avatar--size-xs{
+    height: 35px;
+    width: 35px;
+}
+
+.avatar--size-sm{
+    height: 45px;
+    width: 45px;
+}
+
+.avatar--size-md{
+    height: 55px;
+    width: 55px;
+}
+
+.avatar--size-lg{
+    height: 75px;
+    width: 75px;
+}
+
+.avatar--size-xl{
+    height: 100px;
+    width: 100px;
+}
+
+.avatar--size-2xl{
+    height: 125px;
+    width: 125px;
+}
